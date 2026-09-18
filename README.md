@@ -1,16 +1,27 @@
-# React + Vite
+# 🎬 MovieExplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive **Movie Explorer Application** built with **React** and **Tailwind CSS**. This application allows users to discover movies, search for their favorite titles in real-time, and view detailed information in an interactive modal.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [Insert Your Live Deployment Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Home Page:** Features an engaging Hero Banner with a call-to-action (CTA) button leading to the movies page.
+- **Dynamic Search:** Real-time search functionality that filters movies instantly as you type.
+- **Interactive UI Cards:** Responsive grid layout showcasing movie posters, ratings, and release years.
+- **Detailed Modal:** Interactive modal popup displaying movie synopsis, genres, backdrop images, and full details without leaving the page.
+- **Fully Responsive:** Optimised for seamless user experience across mobile, tablet, and desktop devices.
+- **API Integration:** Dynamic data fetching from the trusted **TVMaze API**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Core:** React (JavaScript)
+- **Styling:** Tailwind CSS (v4)
+- **Bundler:** Vite
+- **Data Source:** TVMaze API
+
+---
